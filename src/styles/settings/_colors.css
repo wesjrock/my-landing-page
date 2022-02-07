@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  --black:            #000000;
+  --light-grey:       #E6E6E6;
+  --dark-grey:        #B3B3B3;
+  --light-yellow:     #ffe21d;
+  --dark-yellow:      #ffd21d;
+  --light-blue:       #24afff;
+  --dark-blue:        #248bff;
+  --red:              #f26c6c;
+  --green:            #27b667;
+}

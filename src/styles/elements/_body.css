@@ -1,0 +1,5 @@
+body {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-default);
+  padding: var(--default-space);
+}

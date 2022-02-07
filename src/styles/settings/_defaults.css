@@ -1,0 +1,12 @@
+*,
+*::before,
+*::after {
+  --font-montserrat:    'Montserrat', sans-serif;
+  
+  --font-size-default:  15px;
+  --font-size-big:      20px;
+  --font-size-small:    10px;
+
+  --default-space:      10px;
+  --no-space:           0px;
+}
