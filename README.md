@@ -1,6 +1,6 @@
-# web-app-template
+# Landing Page
 
-Web app template with Parcel.
+Landing page for the Trainee program. Implemented with BEMCSS for the classes nomenclature, and ITCSS for the structure. The app is a pure HTML and CSS web app built with Parcel.
 
 ## Requirements
 
@@ -24,15 +24,3 @@ yarn start
 ```
 
 Open http://localhost:1234 with your browser to see the result.
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-## License
-
-[MIT License](http://iagodahlem.mit-license.org/) © Iago Dahlem
