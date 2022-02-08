@@ -1,12 +1,19 @@
-*,
-*::before,
-*::after {
+:root{
+  /* Colors */
+  --black:            #000000;
+  --light-grey:       #E6E6E6;
+  --dark-grey:        #B3B3B3;
+  --light-yellow:     #ffe21d;
+  --dark-yellow:      #ffd21d;
+  --light-blue:       #24afff;
+  --dark-blue:        #248bff;
+  --red:              #f26c6c;
+  --green:            #27b667;
+
+  /* Fonts */
   --font-montserrat:    'Montserrat', sans-serif;
   
   --font-size-default:  15px;
   --font-size-big:      20px;
   --font-size-small:    10px;
-
-  --default-space:      10px;
-  --no-space:           0px;
 }

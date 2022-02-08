@@ -1,6 +1,6 @@
 # Landing Page
 
-Landing page for the Trainee program. Implemented with BEMCSS for the classes nomenclature, and ITCSS for the structure. The app is a pure HTML and CSS web app built with Parcel.
+Landing page for Codeminer42 Trainee program. Implemented with BEMCSS for classes nomenclature, and ITCSS for the structure. The app is a pure HTML and CSS web app built with Parcel.
 
 ## Requirements
 
