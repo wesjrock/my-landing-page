@@ -1,0 +1,52 @@
+.button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  border-style: solid;
+  cursor: pointer;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-default);
+  font-weight: bold;
+}
+
+.button__yelowish--static {
+  background-color: var(--white);
+  border-color: var(--light-yellow);
+  color: var(--black);
+}
+
+.button__blueish--static {
+  background-color: var(--white);
+  border-color: var(--light-blue);
+  color: var(--black);
+}
+
+.button__yelowish--hovered:hover {
+  background-color: var(--light-yellow);
+  border-color: var(--light-yellow);
+  color: var(--black);
+}
+
+.button__blueish--hovered:hover {
+  background-color: var(--light-blue);
+  border-color: var(--light-blue);
+  color: var(--white);
+}
+
+.button__yelowish--pressed:active {
+  background-color: var(--dark-yellow);
+  border-color: var(--dark-yellow);
+}
+
+.button__blueish--pressed:active {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+
+.button--disabled:disabled {
+  cursor: default;
+  opacity: 50%;
+}
