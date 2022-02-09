@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  width: 15%;
+  height: 20%;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  list-style: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-big);
+}
+
+.header__menu__link {
+  padding: 32px;
+  color: var(--white);
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.header__menu__link:hover {
+  color: var(--dark-grey);  
+}
+
+.header__button {
+  margin: 5px 0 0 0;
+  padding: 0px;
+  background-color: transparent;
+  color: var(--white);
+  font-weight: bolder;
+}

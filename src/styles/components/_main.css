@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  justify-content: left;
+}
+
+.main__text {
+  padding-top: 10%;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-massive);
+  font-weight: bolder;
+  color: var(--white);
+}
