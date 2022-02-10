@@ -20,4 +20,7 @@
   --font-size-big:      20px;
   --font-size-default:  15px;
   --font-size-small:    13px;
+
+  /* Padding */
+  --padding-default:    64px;
 }

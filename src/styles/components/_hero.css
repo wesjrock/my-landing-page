@@ -1,4 +1,6 @@
 .hero {
   background-image: url('../../images/background.jpg');
-  background-size: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: var(--padding-default);
 }

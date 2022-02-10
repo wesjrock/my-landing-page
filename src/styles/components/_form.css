@@ -1,0 +1,34 @@
+.form {
+  background-color: var(--light-grey);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: var(--padding-default);
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.form--center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+.form__title {
+  display: flex;
+  font-size: var(--font-size-massive);
+  color: var(--light-blue);
+  padding-bottom: 8px;
+}
+
+.form__subtitle {
+  display: flex;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.form__button {
+  background-color: var(--light-grey);
+  margin: 0;
+}

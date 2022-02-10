@@ -8,22 +8,34 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap">
     <title>Web App</title>
   </head>
-  <body class="hero">
-    <div class="layout">
-    <header class="header">
-      <img class="header__logo" src="images/logo.svg" alt="Codeminer42"/>
-      <nav>
-        <ul class="header__menu">
-          <li><a class="header__menu__link" href="#">HOME</a></li>
-          <li><a class="header__menu__link" href="">ABOUT</a></li>
-          <li><a class="header__menu__link" href="">BENEFITS</a></li>
-        </ul>
-      </nav>
-      <button class="button button__yelowish--static header__button ">APPLY NOW</button>
-    </header>
-    <main class="main">
-      <p class="main__text">Trainee Program 2022</p>
-    </main>
+  <body>
+    <div class="hero">
+      <header class="header">
+        <img class="header__logo" src="images/logo.svg" alt="Codeminer42"/>
+        <nav>
+          <ul class="header__menu">
+            <li><a class="header__menu__link" href="#">HOME</a></li>
+            <li><a class="header__menu__link" href="#">ABOUT</a></li>
+            <li><a class="header__menu__link" href="#">BENEFITS</a></li>
+          </ul>
+        </nav>
+        <a href="#section__form"><button class="button button__yelowish--static header__button">APPLY NOW</button></a>
+      </header>
+      <main class="main">
+        <p class="main__text">Trainee Program 2022</p>
+      </main>
     </div>
+    <section id="section__form">
+      <form class="form">
+        <ul class="form--center">
+          <li><h1 class="form__title">APPLY NOW</h1></li>
+          <li><p class="form__subtitle">WE ARE OPENED FOR A CONVERSATION, IF YOU HAVE ANY QUESTION WE WILL BE PLEASED TO ANSWER ALL OF THEM</p></li>
+          <li><input class="input input__form" type="text" placeholder="How should we call you?" required/></li>
+          <li><input class="input input__form" type="email" placeholder="What is your email address?" required/></li>
+          <li><textarea class="input input__textarea" placeholder="What would you like to ask us?" required></textarea></li>
+          <li><button class="button button__blueish--static form__button">SEND</button></li>
+        </ul>
+      </form>
+    </section>
   </body>
 </html>

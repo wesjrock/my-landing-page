@@ -13,7 +13,6 @@
 .header__menu {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 20px;
   list-style: none;
   font-family: var(--font-montserrat);

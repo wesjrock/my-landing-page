@@ -1,5 +1,5 @@
 body {
   font-family: var(--font-montserrat);
   font-size: var(--font-size-default);
-  margin: 32px;
+  height: 100%;
 }

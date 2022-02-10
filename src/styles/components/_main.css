@@ -4,7 +4,7 @@
 }
 
 .main__text {
-  padding-top: 10%;
+  padding: 20% 0 30% 0;
   font-family: var(--font-montserrat);
   font-size: var(--font-size-massive);
   font-weight: bolder;
