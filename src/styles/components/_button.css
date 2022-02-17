@@ -9,39 +9,39 @@
   text-align: center;
   font-family: var(--font-montserrat);
   font-size: var(--font-size-default);
-  font-weight: bold;
+  font-weight: 600;
 }
 
-.button__yelowish--static {
+.button__secondary--static {
   background-color: var(--white);
-  border-color: var(--light-yellow);
+  border-color: var(--dark-red);
   color: var(--black);
 }
 
-.button__blueish--static {
+.button__primary--static {
   background-color: var(--white);
   border-color: var(--light-blue);
   color: var(--black);
 }
 
-.button__yelowish--hovered:hover {
-  background-color: var(--light-yellow);
-  border-color: var(--light-yellow);
+.button__secondary--hovered:hover {
+  background-color: var(--dark-red);
+  border-color: var(--dark-red);
   color: var(--black);
 }
 
-.button__blueish--hovered:hover {
+.button__primary--hovered:hover {
   background-color: var(--light-blue);
   border-color: var(--light-blue);
   color: var(--white);
 }
 
-.button__yelowish--pressed:active {
-  background-color: var(--dark-yellow);
-  border-color: var(--dark-yellow);
+.button__secondary--pressed:active {
+  background-color: var(--dark-red-two);
+  border-color: var(--dark-red);
 }
 
-.button__blueish--pressed:active {
+.button__primary--pressed:active {
   background-color: var(--dark-blue);
   border-color: var(--dark-blue);
 }

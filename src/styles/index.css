@@ -4,9 +4,10 @@
 @import 'generic/_resets.css';
 
 @import 'elements/_body.css';
+@import 'elements/_div.css';
 
 @import 'components/_button.css';
-@import 'components/_header.css';
+@import 'components/_navbar.css';
 @import 'components/_hero.css';
 @import 'components/_input.css';
 @import 'components/_layout.css';

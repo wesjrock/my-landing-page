@@ -2,6 +2,7 @@
   /* Colors */
   --black:            #000000;
   --white:            #FFFFFF;
+  --red:              #d40000;
   --light-grey:       #E6E6E6;
   --dark-grey:        #B3B3B3;
   --light-yellow:     #f8efb1;
@@ -9,7 +10,8 @@
   --light-blue:       #24afff;
   --dark-blue:        #248bff;
   --light-red:        #eec2c2;
-  --dark-red:         #5c0303;
+  --dark-red:         #9c0101;
+  --dark-red-two:     #5f0101;
   --light-green:      #a2d4b9;
   --dark-green:       #034621;
 
@@ -20,4 +22,9 @@
   --font-size-big:      20px;
   --font-size-default:  15px;
   --font-size-small:    13px;
+
+  /* Margin, padding and spacing */
+  --margin-default: 32px;
+  --padding-default: 16px;
+  --letter-spacing: 1.2px;
 }
