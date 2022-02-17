@@ -9,12 +9,26 @@
     <title>Design System</title>
   </head>
   <body>
-    <h1>Design System</h1>
-    <div class="">
-      <button class=""></button>
-      <button class=""></button>
-      <button class=""></button>
-      <button class=""></button>
+    <div class="div__design-system-title">
+      <h1>Design System</h1>
+    </div>
+    <div class="div__design-system-buttons">
+      <button class="button button__primary--static">STATIC</button>
+      <button class="button button__primary--static button__primary--hovered">HOVERED</button>
+      <button class="button button__primary--static button__primary--hovered button__primary--pressed">PRESSED</button>
+      <button class="button button__primary--static button--disabled" disabled>DISABLED</button>
+    </div>
+    <div class="div__design-system-buttons">
+      <button class="button button__secondary--static">STATIC</button>
+      <button class="button button__secondary--static button__secondary--hovered">HOVERED</button>
+      <button class="button button__secondary--static button__secondary--hovered button__secondary--pressed">PRESSED</button>
+      <button class="button button__secondary--static button--disabled" disabled>DISABLED</button>
+    </div>
+    <div class="div__design-system-buttons">
+      <input class="input" type="text" placeholder="Static Input placeholder"/>
+      <input class="input input--active" type="text" placeholder="Active Input placeholder"/>
+      <input class="input" type="text" placeholder="Disabled Input" disabled/>
+      <input class="input" type="email" placeholder="This needs your attention" required/>
     </div>
   </body>
 </html>

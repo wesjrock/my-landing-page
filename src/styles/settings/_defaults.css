@@ -1,19 +1,22 @@
 :root{
   /* Colors */
   --black:            #000000;
+  --white:            #FFFFFF;
   --light-grey:       #E6E6E6;
   --dark-grey:        #B3B3B3;
-  --light-yellow:     #ffe21d;
-  --dark-yellow:      #ffd21d;
+  --light-yellow:     #f8efb1;
+  --dark-yellow:      #755e01;
   --light-blue:       #24afff;
   --dark-blue:        #248bff;
-  --red:              #f26c6c;
-  --green:            #27b667;
+  --light-red:        #eec2c2;
+  --dark-red:         #5c0303;
+  --light-green:      #a2d4b9;
+  --dark-green:       #034621;
 
   /* Fonts */
   --font-montserrat:    'Montserrat', sans-serif;
   
   --font-size-default:  15px;
   --font-size-big:      20px;
-  --font-size-small:    10px;
+  --font-size-small:    13px;
 }

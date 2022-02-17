@@ -1,0 +1,43 @@
+.input {
+  width: 225px;
+  height: 35px;
+  border-radius: 20px;
+  border-style: solid;
+  margin: 30px;
+  padding: 15px;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-small);
+  font-weight: 600;
+}
+
+.input--active:hover {
+  border-color: var(--light-blue);
+}
+
+.input--active:focus {
+  border-color: var(--dark-blue);
+}
+
+.input:required:valid {
+  background-color: var(--light-green);
+  border-color: var(--light-green);
+}
+
+.input:required:focus:valid {
+  background: url("https://assets.digitalocean.com/labs/icons/hand-thumbs-up.svg") no-repeat 95% 50% var(--light-green);
+  background-size: 25px;
+}
+
+.input:invalid {
+  background-color: var(--light-yellow);
+  border-color: var(--light-yellow);
+}
+
+.input:focus:invalid {
+  background-color: var(--light-red);
+  border-color: var(--light-red);
+  background: url("https://assets.digitalocean.com/labs/icons/exclamation-triangle-fill.svg") no-repeat 95% 50% var(--light-red);
+  background-size: 25px;
+  color: var(--dark-red);
+}

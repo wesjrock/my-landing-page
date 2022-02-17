@@ -4,3 +4,7 @@
 @import 'generic/_resets.css';
 
 @import 'elements/_body.css';
+@import 'elements/_div.css';
+
+@import 'components/_button.css';
+@import 'components/_input.css';
