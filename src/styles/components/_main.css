@@ -1,6 +1,7 @@
 .main {
   display: flex;
   justify-content: left;
+  margin-left: 256px;
 }
 
 .main__text {
