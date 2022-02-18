@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  justify-content: left;
+  margin-left: 256px;
+}
+
+.main__text {
+  padding-top: 15%;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-massive);
+  font-weight: bolder;
+  color: var(--white);
+}

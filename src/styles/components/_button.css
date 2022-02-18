@@ -14,7 +14,7 @@
 
 .button__secondary--static {
   background-color: var(--white);
-  border-color: var(--light-yellow);
+  border-color: var(--dark-red);
   color: var(--black);
 }
 
@@ -25,8 +25,8 @@
 }
 
 .button__secondary--hovered:hover {
-  background-color: var(--light-yellow);
-  border-color: var(--light-yellow);
+  background-color: var(--dark-red);
+  border-color: var(--dark-red);
   color: var(--black);
 }
 
@@ -37,8 +37,8 @@
 }
 
 .button__secondary--pressed:active {
-  background-color: var(--dark-yellow);
-  border-color: var(--dark-yellow);
+  background-color: var(--dark-red-two);
+  border-color: var(--dark-red);
 }
 
 .button__primary--pressed:active {
