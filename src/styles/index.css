@@ -3,10 +3,14 @@
 @import 'generic/_box-sizing.css';
 @import 'generic/_resets.css';
 
+@import 'elements/_a.css';
 @import 'elements/_body.css';
 @import 'elements/_div.css';
+@import 'elements/_html.css';
 
 @import 'components/_button.css';
+@import 'components/_form.css';
+@import 'components/_footer.css';
 @import 'components/_navbar.css';
 @import 'components/_hero.css';
 @import 'components/_input.css';
