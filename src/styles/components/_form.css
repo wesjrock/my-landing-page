@@ -2,7 +2,7 @@
   background-color: var(--light-grey);
   background-attachment: fixed;
   background-size: cover;
-  padding: var(--padding-default);
+  padding: 512px 0 512px 0;
   display: flex;
   justify-content: center;
   height: 100%;

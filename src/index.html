@@ -5,25 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap">
-    <title>Web App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <title>Codeminer42 Trainee 2022</title>
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
   </head>
-  <body>
+  <body id="home">
     <div class="hero">
-      <header class="header">
-        <img class="header__logo" src="images/logo.svg" alt="Codeminer42"/>
-        <nav>
-          <ul class="header__menu">
-            <li><a class="header__menu__link" href="#">HOME</a></li>
-            <li><a class="header__menu__link" href="#">ABOUT</a></li>
-            <li><a class="header__menu__link" href="#">BENEFITS</a></li>
-          </ul>
-        </nav>
-        <a href="#section__form"><button class="button button__yelowish--static header__button">APPLY NOW</button></a>
-      </header>
-      <main class="main">
-        <p class="main__text">Trainee Program 2022</p>
-      </main>
+      <div class="layout">
+        <header class="navbar" >
+          <img class="navbar__logo" src="images/logo.svg" alt="Codeminer42"/>
+          <nav>
+            <ul class="navbar__menu">
+              <li><a class="navbar__menu__link" href="#home">HOME</a></li>
+              <li><a class="navbar__menu__link" href="#">ABOUT</a></li>
+              <li><a class="navbar__menu__link" href="#">BENEFITS</a></li>
+            </ul>
+          </nav>
+          <a href="#section__form"><button class="button navbar__button">APPLY NOW</button></a>
+        </header>
+        <main class="main">
+          <p class="main__text">Trainee Program 2022</p>
+        </main>
+      </div>
     </div>
     <section id="section__form">
       <form class="form">
@@ -33,9 +36,24 @@
           <li><input class="input input__form" type="text" placeholder="How should we call you?" required/></li>
           <li><input class="input input__form" type="email" placeholder="What is your email address?" required/></li>
           <li><textarea class="input input__textarea" placeholder="What would you like to ask us?" required></textarea></li>
-          <li><button class="button button__blueish--static form__button">SEND</button></li>
+          <li><button class="button button__primary--static form__button">SEND</button></li>
         </ul>
       </form>
     </section>
+    <footer class="footer">
+      <div></div>
+      <div class="footer__center">
+        <img class="footer__image" src="images/logo.svg" alt="Codeminer42 logo"/>
+        <p class="footer__text">All Rights Reserved ©2022</p>
+      </div>
+      <div class="footer__right">
+        <i data-feather="chevron-up"></i>
+        <a href="#home" class="footer__link">TOP</a>
+      </div>
+    </footer>
+    <!-- script to load arrow icon -->
+    <script>
+      feather.replace();
+    </script>
   </body>
 </html>

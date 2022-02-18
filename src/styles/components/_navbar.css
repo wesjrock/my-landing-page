@@ -1,16 +1,19 @@
-.header {
+.navbar {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
+  margin-top: var(--margin-default);  
+  margin-left: 256px;
+  margin-right: 256px;  
 }
 
-.header__logo {
+.navbar__logo {
   display: flex;
   justify-content: flex-start;
   width: 15%;
   height: 20%;
 }
 
-.header__menu {
+.navbar__menu {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
@@ -19,23 +22,35 @@
   font-size: var(--font-size-big);
 }
 
-.header__menu__link {
+.navbar__menu__link {
   padding: 32px;
   color: var(--white);
   font-weight: bolder;
   text-decoration: none;
 }
 
-.header__menu__link:hover {
+.navbar__menu__link:hover {
   color: var(--dark-grey);  
 }
 
-.header__button {
+.navbar__button {
   width: 200px;
   margin: 5px 0 0 0;
   padding: 10px;
   background-color: transparent;
   color: var(--white);
+  border-width: medium;
+  border-color: var(--dark-red);
   font-size: var(--font-size-big);
   font-weight: bolder;
+}
+
+.navbar__button:hover {
+  background-color: var(--dark-red);
+  color: var(--white);
+}
+
+.navbar__button:active {
+  background-color: var(--dark-red-two);
+  color: var(--white);
 }
